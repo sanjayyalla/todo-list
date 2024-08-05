@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "task": "Learn React",
+    "description": "Understand the basics of React",
+    "completed": false,
+    "timestamp": "2023-07-30T12:34:56Z"
+  },
+  {
+    "id": 2,
+    "task": "Build a Todo App",
+    "description": "Create a simple Todo app using React",
+    "completed": false,
+    "timestamp": "2023-07-30T12:35:56Z"
+  }
+]

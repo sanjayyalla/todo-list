@@ -1,0 +1,106 @@
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.task-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-text {
+  cursor: pointer;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.expand-button,
+.edit-button,
+.delete-button,
+.save-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.expand-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.expand-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c62828;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #388e3c;
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-input,
+.edit-description {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.edit-description {
+  margin-top: 10px;
+  min-height: 60px; /* Adjust as needed */
+}
+
+.task-details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-description {
+  margin-top: 10px;
+}
+
+.task-timestamp {
+  font-size: 0.8em;
+  color: grey;
+}
